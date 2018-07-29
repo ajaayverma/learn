@@ -1,4 +1,4 @@
-package shuaicj.example.security.common;
+package com.example.security.common;
 
 import java.io.IOException;
 import java.util.List;
@@ -15,11 +15,7 @@ import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.filter.OncePerRequestFilter;
 
-/**
- * Authenticate requests with header 'Authorization: Bearer jwt-token'.
- *
- * @author shuaicj 2017/10/18
- */
+
 public class JwtTokenAuthenticationFilter extends OncePerRequestFilter {
 
     private final JwtAuthenticationConfig config;

@@ -1,4 +1,4 @@
-package shuaicj.example.security.auth;
+package com.example.security.auth;
 
 import javax.servlet.http.HttpServletResponse;
 
@@ -10,14 +10,10 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
-import shuaicj.example.security.common.JwtAuthenticationConfig;
-import shuaicj.example.security.common.JwtUsernamePasswordAuthenticationFilter;
+import com.example.security.common.JwtAuthenticationConfig;
+import com.example.security.common.JwtUsernamePasswordAuthenticationFilter;
 
-/**
- * Config login authentication.
- *
- * @author shuaicj 2017/10/18
- */
+
 @EnableWebSecurity
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 

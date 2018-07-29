@@ -67,3 +67,12 @@ You can change the token and the URL as need. To sum up, the following table rep
 | `admin` token (role `USER` `ADMIN`) |            200 |           200 |            200 |
 | `shuaicj` token (role `USER`)       |            403 |           200 |            200 |
 | no token                            |            401 |           401 |            200 |
+
+#### What could we implement more?
+We could add several features to the basic API gateway. Below are some of them:
+- We could have persistence layer to store data.
+- We could implement data caching.
+- We could implement thread safe methods.
+- Errors could be masked at gateway.
+- We could implement collation where gateway hit several servies and then collate the data and return it to user.
+- We could use netflix's eureka for service discovery registry.

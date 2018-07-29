@@ -1,4 +1,4 @@
 server:
   port: 8081
 
-shuaicj.security.jwt.secret: otherpeopledontknowit
+com.security.jwt.secret: otherpeopledontknowit
