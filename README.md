@@ -41,9 +41,9 @@ mvn clean package
 
 ##### 2. Start services
 ```bash
-java -jar auth-center/target/auth-center-1.0.0.jar
-java -jar backend-service/target/backend-service-1.0.0.jar
-java -jar api-gateway/target/api-gateway-1.0.0.jar
+java -jar auth-center/target/auth-center-1.0.0-SNAPSHOT.jar
+java -jar backend-service/target/backend-service-1.0.0-SNAPSHOT.jar
+java -jar api-gateway/target/api-gateway-1.0.0-SNAPSHOT.jar
 ```
 
 ##### 3. Get tokens
