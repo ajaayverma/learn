@@ -28,7 +28,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
         auth.inMemoryAuthentication()
                 .withUser("admin").password("admin").roles("ADMIN", "USER").and()
-                .withUser("shuaicj").password("shuaicj").roles("USER");
+                .withUser("user").password("user").roles("USER");
     }
 
     @Override
