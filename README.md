@@ -86,4 +86,4 @@ We could add several features to the basic API gateway. Below are some of them:
 - We could add monitoring at gateway layer.
 
 ###Technical trade-off
-- I have skipped the test part, we could write unit test to test our APIs.
+- I have skipped the test part, we could write unit test to test our APIs and gateway.
